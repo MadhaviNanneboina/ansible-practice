@@ -1,0 +1,6 @@
+- name: passing arguments
+  hosts: host
+  tasks:
+  - name: variable argus
+    ansible.builtin.debug:
+     msg: "hello {{person}} i am {{person1}}"

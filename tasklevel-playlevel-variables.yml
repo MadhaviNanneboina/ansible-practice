@@ -1,5 +1,5 @@
 - name: play and task level variables
-  hosts: web
+  hosts: host
   vars:
     person1: madhu
     person2: shiva

@@ -1,5 +1,5 @@
 - name: prompt variable declaration
-  hosts: web
+  hosts: host
   vars_prompt:
   - name: usernsme
     prompt: please enter ur username

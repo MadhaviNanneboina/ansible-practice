@@ -1,5 +1,5 @@
 - name: play and task level variables
-  hosts: loaclhost
+  hosts: web
   vars:
     person1: madhu
     person2: shiva

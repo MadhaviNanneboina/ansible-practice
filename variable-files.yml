@@ -1,0 +1,8 @@
+- name: declaring variable files
+  hosts: localhost
+  vars_files:
+  - var.yml
+  tasks:
+  - name: declaring variables
+    ansible.builtin.debug:
+      msg: "hello {{person1}} {{person2}} {{person3}}"

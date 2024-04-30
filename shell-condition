@@ -2,7 +2,7 @@
 ## printing greater value
 echo "please enter value:"
 read i
-for $i in {
+for i in {
     if [ $i -gt 10 ]
     then 
         echo "given number is greater than $i"

@@ -1,0 +1,15 @@
+- name: play and task level variables
+  hosts: loaclhost
+  vars:
+    person1: madhu
+    person2: shiva
+  tasks:
+  - name: task level variables
+    vars:
+      person1: loukya
+      person2: vishruth
+    ansible.builtin.debug:
+      msg: "hello {{person1}} and {{person2}}"
+  - name: play level variables
+    ansible.builtin.debug:
+      msg: "hello {{person1}} and {{person2}}"

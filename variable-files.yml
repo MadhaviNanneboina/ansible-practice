@@ -5,4 +5,4 @@
   tasks:
   - name: declaring variables
     ansible.builtin.debug:
-      msg: "hello {{person1}} {{person2}} {{person3}}"
+      msg: "hello {{me}} {{you}} {{da}}"

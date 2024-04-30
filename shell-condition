@@ -1,0 +1,12 @@
+#!/bin/bash
+## printing greater value
+echo "please enter value:"
+read i
+for i in {
+    if [ i -gt 10 ]
+    then 
+        echo "given number is greater than $i"
+    else
+        echo "given number is less than $i"
+    fi
+}

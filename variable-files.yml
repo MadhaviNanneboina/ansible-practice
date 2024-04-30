@@ -1,5 +1,5 @@
 - name: declaring variable files
-  hosts: localhost
+  hosts: web
   vars_files:
   - var.yml
   tasks:
